@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'AnyCodable-FlightSchool'
   s.module_name  = 'AnyCodable'
-  s.version      = '0.2.2'
+  s.version      = '0.5.0'
   s.summary      = 'Type-erased wrappers for Encodable, Decodable, and Codable values.'
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.framework = 'Foundation'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.10'
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
@@ -27,6 +27,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Sources/**/*.swift'
 
-  s.swift_version = '5.0'
-  s.static_framework = true
+  s.swift_version = '5.1'
 end
